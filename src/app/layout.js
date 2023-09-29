@@ -1,8 +1,8 @@
-import Link from 'next/link';
 import './globals.css';
 import { Inter } from 'next/font/google';
 import NavbStyle from './components/NavbStyle';
 import TopNav from './components/TopNav';
+import FooterStyle from './components/FooterStyle';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -18,9 +18,7 @@ export default function RootLayout({ children }) {
         <TopNav />
         <NavbStyle />
         {children}
-        <footer>
-          <h1>footer</h1>
-        </footer>
+        <FooterStyle />
       </body>
     </html>
   );

@@ -3,7 +3,7 @@ import React from 'react';
 
 const TopNav = () => {
   return (
-    <div className=' header top-0 bg-white shadow-md flex items-center justify-between px-5 '>
+    <div className='header top-0 bg-white shadow-md hidden sm:block md:flex items-center justify-between px-5 '>
       <div className='nav font-semibold text-lg'>
         <ul className='flex items-center gap-3 p-1'>
           <li className=''>
@@ -26,7 +26,7 @@ const TopNav = () => {
             </a>
           </li>
           <li className=''>
-            <a href='' className=' flex gap-1 text-sm'>
+            <a href='' className='flex gap-1 text-sm'>
               <svg
                 xmlns='http://www.w3.org/2000/svg'
                 fill='none'
