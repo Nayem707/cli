@@ -61,19 +61,19 @@ const TopNav = () => {
       <div className=' border flex justify-center align-baseline bg-slate-200 rounded-full p-1 '>
         <ul className='flex text-center divide-x gap-2 divide-blue-800 px-5'>
           <li>
-            <a className='' href='https://ecommerc-490-admin.netlify.app'>
+            <a className='' href='#admin'>
               Admin
             </a>
           </li>
           <li>
-            <Link className='p-2' href='/login'>
+            <a className='p-2' href='#login'>
               Login
-            </Link>
+            </a>
           </li>
           <li>
-            <Link className='p-2' href='/register'>
+            <a className='p-2' href='#register'>
               Signup
-            </Link>
+            </a>
           </li>
         </ul>
       </div>
