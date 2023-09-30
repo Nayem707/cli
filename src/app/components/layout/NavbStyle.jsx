@@ -60,9 +60,7 @@ const NavbStyle = () => {
                   id=''
                   className='cursor-pointer text-sm outline-none focus:outline-none bg-transparent'
                 >
-                  <option value='all' selected>
-                    All
-                  </option>
+                  <option value='all'>All</option>
                   <option value='photo'>T-shrt</option>
                   <option value='illustration'>Bug</option>
                   <option value='vector'>Vector</option>
